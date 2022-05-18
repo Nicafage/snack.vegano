@@ -88,12 +88,12 @@ header {
 }
 
 /* logo de instagram */
-.img-instagram {
-	width: 100%;
+.insta {
+	margin-right: 1rem;
 
 	display: flex;
 	justify-content: end;
-	position: fixed;
+	
 }
 
 .img-fluid {
@@ -122,44 +122,6 @@ header {
 	font-family: "fjallaone";
 }
 
-/* 
-.barra-nav {
-	font-size: 20px;
-	padding-top: 3rem;
-	padding-left: 6rem;
-	padding-bottom: 3rem;
-	background: rgb(56, 145, 52);
-	background: linear-gradient(90deg, rgba(56, 145, 52, 1) 0%, rgba(2, 38, 0, 1) 54%, rgba(0, 45, 3, 1) 100%);
-}
-
-.barra-nav a {
-	color: whitesmoke;
-	font-size: 1.5rem;
-	font-family: "fjallaone";
-	text-decoration: none;
-}
-
-.bar-1 { 
-	border-radius: 6px;
-    padding-top: 3rem;
-	padding-left: 3rem;
-	padding-right: 3rem;
-	padding-bottom: 3rem;
-}
-
-.bar-2 {
-	border-radius: 6px;
-	padding-top: 3rem;
-	padding-left: 3rem;
-	padding-right: 3rem;
-	padding-bottom: 3rem;
-}
-.bar:hover{
-	background-color: #9fc088;
-	transform: scale(4);
-	transition-property: all;
-	transition-duration: 2s;
-} */
 
 /* imagenes fondo de pantalla */
 
@@ -216,12 +178,7 @@ header {
 	grid-row-start:1 ;
 	grid-row-end:4 ;
 }
-.info-2{
-	grid-column-start: 1 ;
-	grid-column-end: 4 ;
-	grid-row-start:1 ;
-	grid-row-end:4 ;
-}
+
 
 
 /* pag contacto */
@@ -231,7 +188,10 @@ header {
 	justify-content: center;
 	background-color: #9fc088;
 }
-
+/* sacar propaganda */
+.disclaimer{
+	display: none;
+}
 
 
 /* responsive */
