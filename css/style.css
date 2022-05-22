@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 header nav div a h2 {
   color: #ff5f00;
   font-family: "lobster";
@@ -5,12 +10,17 @@ header nav div a h2 {
   padding-left: 3rem;
   padding-top: 0.5rem;
 }
-header nav div a h2 h2.vegano {
+header nav div a h2 h3 {
   color: #9fc088;
   font-family: "lobster";
   font-size: 3rem;
   padding-left: 3rem;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+
 section div {
   width: 100%;
   background-color: #464E2E;
