@@ -1,6 +1,10 @@
 @import'../base/variables';
-@import'../base/EstilosGenerales';
+
+
 header {
+    background-color: white;
+    display: block;
+
     nav {
         div {
             a {
@@ -17,21 +21,28 @@ header {
                         font-size: 3rem;
                         padding-left: 3rem;
 
-                        buttom {
-                            span {
-                                div {
-                                    ul {
-                                        li {
-                                            a {
-                                                li {
-                                                    a {
-                                                        li {
-                                                            a {
-                                                                li {
-                                                                    a {
-                                                                        li {
+                      
+                        span {
+                            div {
+                                ul {
+                                    li {
+                                        a {
+                                            li {
+                                                a {
+                                                    li {
+                                                        a {
+                                                            li {
+                                                                a {
+                                                                    li {
+                                                                        a {
                                                                             a {
-                                                                                a {}
+                                                                                margin-right: 4rem;
+                                                                                display: flex;
+                                                                                justify-content: end;
+
+                                                                             img{
+                                                                                border-radius: 50%;
+                                                                                }
                                                                             }
                                                                         }
                                                                     }
@@ -46,9 +57,11 @@ header {
                                 }
                             }
                         }
+                      
                     }
                 }
             }
         }
     }
 }
+

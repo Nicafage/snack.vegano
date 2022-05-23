@@ -1,8 +1,13 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
+header {
+  background-color: white;
+  display: block;
+}
 header nav div a h2 {
   color: #ff5f00;
   font-family: "lobster";
@@ -16,9 +21,13 @@ header nav div a h2 h3 {
   font-size: 3rem;
   padding-left: 3rem;
 }
-* {
-  margin: 0;
-  padding: 0;
+header nav div a h2 h3 span div ul li a li a li a li a li a a {
+  margin-right: 4rem;
+  display: flex;
+  justify-content: end;
+}
+header nav div a h2 h3 span div ul li a li a li a li a li a a img {
+  border-radius: 50%;
 }
 
 section div {
