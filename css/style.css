@@ -4,29 +4,45 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "lobster";
+  src: url("font/Lobster-Regular.ttf");
+}
+@font-face {
+  font-family: "hartone";
+  src: url("font/Hartone Softed.ttf");
+}
+@font-face {
+  font-family: "fjallaone";
+  src: url("font/FjallaOne-Regular.ttf");
+}
 header {
   background-color: white;
   display: block;
 }
-header nav div a h2 {
+
+.snack {
   color: #ff5f00;
   font-family: "lobster";
   font-size: 2rem;
   padding-left: 3rem;
   padding-top: 0.5rem;
 }
-header nav div a h2 h3 {
+
+.vegano {
   color: #9fc088;
   font-family: "lobster";
   font-size: 3rem;
   padding-left: 3rem;
 }
-header nav div a h2 h3 span div ul li a li a li a li a li a a {
+
+.insta {
   margin-right: 4rem;
   display: flex;
   justify-content: end;
 }
-header nav div a h2 h3 span div ul li a li a li a li a li a a img {
+
+.img-fluid {
   border-radius: 50%;
 }
 

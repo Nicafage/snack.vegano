@@ -1,67 +1,33 @@
 @import'../base/variables';
 
 
+
 header {
     background-color: white;
     display: block;
-
-    nav {
-        div {
-            a {
-                h2 {
-                    color: #ff5f00;
-                    font-family: "lobster";
-                    font-size: 2rem;
-                    padding-left: 3rem;
-                    padding-top: 0.5rem;
-
-                    h3 {
-                        color: #9fc088;
-                        font-family: "lobster";
-                        font-size: 3rem;
-                        padding-left: 3rem;
-
-                      
-                        span {
-                            div {
-                                ul {
-                                    li {
-                                        a {
-                                            li {
-                                                a {
-                                                    li {
-                                                        a {
-                                                            li {
-                                                                a {
-                                                                    li {
-                                                                        a {
-                                                                            a {
-                                                                                margin-right: 4rem;
-                                                                                display: flex;
-                                                                                justify-content: end;
-
-                                                                             img{
-                                                                                border-radius: 50%;
-                                                                                }
-                                                                            }
-                                                                        }
-                                                                    }
-                                                                }
-                                                            }
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                      
-                    }
-                }
-            }
-        }
-    }
 }
 
+.snack {
+    color: #ff5f00;
+    font-family: "lobster";
+    font-size: 2rem;
+    padding-left: 3rem;
+    padding-top: 0.5rem;
+}
+
+.vegano {
+    color: #9fc088;
+    font-family: "lobster";
+    font-size: 3rem;
+    padding-left: 3rem;
+}
+
+.insta {
+    margin-right: 4rem;
+    display: flex;
+    justify-content: end;
+}
+
+.img-fluid {
+    border-radius: 50%;
+}
